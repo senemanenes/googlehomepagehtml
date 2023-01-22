@@ -1,0 +1,292 @@
+
+* {
+    font-size: 14px;
+    font-family: Arial,  sans-serif;
+}
+
+.navbar-setup{
+    height: 36px;
+    margin-top: 14px;
+    margin-right: 9px;   
+}
+
+.mail-setup{
+    float: right;
+    margin-right: 1px;
+    margin-left: 1px;
+    border-radius: 18px;  
+}
+
+.mail:hover{
+        display: inline-block;
+        vertical-align: middle;
+        -webkit-transform: perspective(1px) translateZ(0);
+        transform: perspective(1px) translateZ(0);
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        -webkit-transition-property: box-shadow;
+        transition-property: box-shadow;
+        box-shadow: inset 0 0 0 4px #e1e1e1, 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.gmail-setup{
+    float: right;
+    padding-top: 8px;
+    padding-right: 14px;
+    text-decoration:none;
+    color: black;
+}
+
+a{
+
+    text-decoration:none;
+    font-family: Roboto, arial, sans-serif;
+    font-size: 14px;
+    color: #70757a;
+}
+
+a:visited{color: #70757a;}
+
+.gmail:visited{
+    color: black
+}
+
+.hakkinda{
+    float: right;
+    padding-top: 8px;
+    padding-right: 17px;
+}
+.gorseller{
+    float: right;
+    padding-top: 8px;
+    padding-right: 14px;
+    color: black;
+}
+
+.gorseller a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+
+.gmail a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+
+/* logo için olan alan */
+img{
+  display: block;
+  margin: auto;
+}
+.logo{
+    margin-top: 210px;
+}
+
+/* logo kısmı bitiş */
+
+/* zorlu kısım arama form yeri */
+.out-border{
+    margin-top: 26px
+}
+.main-border{
+    border:1px solid darkgrey;
+    border-radius: 30px;
+    margin: auto;
+	width:578px;
+	height:45px;
+}
+
+li{
+    list-style-type: none;
+    float: left;
+}
+
+input[type=text] {
+    background-color: white;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    margin-top: -10px;
+    height: 25px;
+    width: 400px;
+    border: none;
+  }
+.input {
+    background-color: transparent;
+    border: 0px solid;
+    height: 20px;
+    width: 160px;
+    color: #CCC;
+  }
+textarea:focus, input:focus{
+    outline:none;
+}
+
+.anacerceve:hover{
+    box-shadow: 0px 3px 5px 0px rgba(177, 177, 177, 0.5);
+}
+ 
+.button-setup{
+ margin-left: -25px;
+ margin-top: 0px;
+  }
+
+.keyboard-setup{
+    margin-left: 21px;
+    margin-top: 1px;
+  }
+
+.microfon-setup{
+    margin-left: 18px;
+    margin-top: -6px;
+  }
+
+.camera-setup{
+    margin-left: 14px;
+    margin-top: -5px;
+  }
+
+.search-button{
+    width: 500px;
+    margin: auto;
+    margin-top: 27px;
+  }
+
+.search-google{
+    width: 200px;
+    float: left;
+}
+.lucky{
+    width: 300px;
+    float: left;
+    
+}
+
+.search-inside{
+    background-color: rgb(248, 249, 251);
+    border: none;
+    border-radius: 4px;
+    height: 35px;
+    width: 120px;
+    margin-left: 75px;
+
+ }
+
+.lucky-inside{
+    background-color: rgb(248, 249, 251);
+    border: none;
+    border-radius: 4px;
+    height: 35px;
+    width: 215px;
+    margin-left: 10px;
+
+ }
+.search-inside:hover{
+    
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow;
+    transition-property: box-shadow;
+    box-shadow: inset 0 0 0 1px #e1e1e1, 0 0 1px rgba(0, 0, 0, 0);
+}
+
+
+.lucky-inside:hover{
+  
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow;
+    transition-property: box-shadow;
+    box-shadow: inset 0 0 0 1px #e1e1e1, 0 0 1px rgba(0, 0, 0, 0);
+
+ }
+
+.footer-country{
+    background:rgb(243, 242, 242);
+    position:absolute;
+    bottom: 53px;
+    right: 0px;
+    left: 0px;
+    font-size: 14px;
+    height: 23px;
+    padding-left: 30px;
+    padding-top: 12px;
+    padding-bottom: 11px;
+    color: #70757a;
+    
+
+ }
+.footer2{
+    background:rgb(243, 242, 242);
+    position:absolute;
+    bottom: 5px;
+    right: 0px;
+    left: 0px;
+    font-size: 15px;
+    padding-left: -4px;
+    padding-top: 3px;
+    padding-bottom: 14px;
+    color: #70757a;
+    
+
+}
+
+.footer-link{
+    margin-right: 28px;
+ }
+
+
+.footer-link a:hover{
+    text-decoration: underline;
+ }
+
+.footer-link2{
+    
+    margin-left: 45px;
+    
+ }
+
+
+.footer-link2 a:hover{
+    text-decoration: underline;
+ }
+
+
+
+.black-line{
+    background:rgb(220, 219, 224);
+    position:absolute;
+    bottom: 51px;
+    right: 0px;
+    left: 0px;
+    height: 2px;
+}
+ 
+.carbon-logo{
+    margin-left: 410px;
+    margin-right: 5px;
+   }
+
+.footer-carbon{
+    margin-right:540px ;
+}
+
+span{
+    color: black;
+    font-size: 13px;
+}
+span:visited{
+    color:black
+}
